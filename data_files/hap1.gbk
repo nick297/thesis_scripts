@@ -1,0 +1,348 @@
+LOCUS       JX848345              366146 bp    DNA     linear   MAM 09-AUG-2013
+DEFINITION  Bos taurus LILR1 (LILR1) and LILR2 (LILR2) genes, complete cds;
+           LILR3 pseudogene, complete sequence; KIR region genomic sequence;
+           FCAR (FCAR) and NCR1 (NCR1) genes, complete cds.
+ACCESSION   JX848345
+VERSION     JX848345  GI:528079616
+KEYWORDS    .
+SOURCE      Bos taurus (cattle)
+ ORGANISM  Bos taurus
+           Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+           Mammalia; Eutheria; Laurasiatheria; Cetartiodactyla; Ruminantia;
+           Pecora; Bovidae; Bovinae; Bos.
+REFERENCE   1  (bases 1 to 366146)
+ AUTHORS   Sanderson,N.D. and Hammond,J.A.
+ TITLE     Cattle KIR haplotype
+ JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 366146)
+ AUTHORS   Sanderson,N.D. and Hammond,J.A.
+ TITLE     Direct Submission
+ JOURNAL   Submitted (19-SEP-2012) Immunogenetics Group, Livestock Viral
+           Disease Programme, Institute for Animal Health, F1B IAH Compton
+           High Street, Newbury, Berkshire RG20 7NN, United Kingdom
+COMMENT     ##Assembly-Data-START##
+           Assembly Method       :: mira v. 3.4
+           Sequencing Technology :: 454; Sanger dideoxy sequencing
+           ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+    source          1..366146
+                    /organism="Bos taurus"
+                    /mol_type="genomic DNA"
+                    /db_xref="taxon:9913"
+                    /haplotype="1"
+    gene            <17566..>21072
+                    /gene="LILR1"
+    mRNA            join(<17566..17599,17756..17790,17964..18251,18512..18685,
+                    18967..19056,19092..19154,19452..19742,20695..>21072)
+                    /gene="LILR1"
+                    /product="LILR1"
+    CDS             join(17566..17599,17756..17790,17964..18251,18512..18685,
+                    18967..19056,19092..19154,19452..19742,20695..21072)
+                    /gene="LILR1"
+                    /codon_start=1
+                    /product="LILR1"
+                    /translation="MAPALPALLCLGLSVGLRTQVQAGTLPKSTIWAEPGSVVLWGSP
+                    VTIWCWGTLWAQGFRLGKEGSPVLWDRQKPLEPWDKARFSIQHMRDDHTGSYRCYYST
+                    PTGWSERSDPLELVVTGRRRRGLLDTRWTAKPRRADPGPVPRGPCDPRARVDVQMLRL
+                    LQGHPPGVVGPQRSPGAGQNLTLQCHSDIGYTRFALSKEGGQDLPQHDFPLGPVGTFH
+                    RGRYRCYGGHPSLLVQPGPSVAPGENVTLLCQSGERTDTFLLSKEGAAHRPLRLRSQD
+                    QAGRYQAEFSLSPVTSAHGGTYRCYGSLSTDPYLLSQPSEPLALVVSGEPHPRLHGAE
+                    SHPDGPHGLGPAAPRGPALPGSARPRRSPRCGPELSTEASHCPKLSIPGRQLPAWELL
+                    EEPLWCVLGALSAETLGERCEMLRGGGRRPLGAQPLLTGVPLPPGEDAPTPGSYHPRA
+                    "
+    gene            <26465..>28520
+                    /gene="LILR2"
+    mRNA            join(<26465..26513,26925..27211,27362..27679,27866..27875,
+                    28435..>28520)
+                    /gene="LILR2"
+                    /product="LILR2"
+    CDS             join(26465..26513,26925..27211,27362..27679,27866..27875,
+                    28435..28520)
+                    /gene="LILR2"
+                    /codon_start=1
+                    /product="LILR2"
+                    /translation="MRGSATTLTFTALLCLEVLPKPSIWADPGTMVAQGSPVTIWCQG
+                    SLLADVYRLHKERSSVYWEAKAPQGSRNKARFHFEYTSSSGAGQYQCAYQSRNRSSER
+                    SDPLPLVVTGGVYRAPSLSAQPSPVVAAGGRVSLTCSSQYAAGTLHLLKEGGTDPLRH
+                    KASKNYGNQGQEQAVFPVGPVTTSHGGTYRCYDAPSTQPYLWSRPSEPLHLQVTGEAP
+                    LSAGNAQETLPLRPPGGLSAPGRECDPAVSL"
+    gene            35957..37928
+                    /gene="LILR3"
+                    /pseudogene="unknown"
+    misc_feature    62076..323782
+                    /note="KIR region"
+    gene            <62076..>64690
+                    /gene="KIR3DXL6"
+                    /allele="KIR3DXL6*01N"
+                    /note="BotaKIR3DXL6*01N"
+    mRNA            join(<62076..62109,62252..62287,63432..63696,
+                    64594..>64690)
+                    /gene="KIR3DXL6"
+                    /allele="KIR3DXL6*01N"
+                    /product="KIR3DXL6"
+    CDS             join(62076..62109,62252..62287,63432..63696,64594..64690)
+                    /gene="KIR3DXL6"
+                    /allele="KIR3DXL6*01N"
+                    /codon_start=1
+                    /product="KIR3DXL6"
+                    /translation="MCPTLLSLLSLGFCVSLKIWALAGEYEKLSLSAWPSPVVPLGQT
+                    VTLWCHSRSPLKRFTLFKTDERRRLPELQGHYVNNFTLGPVTREHAGFYMCSRASWSA
+                    PSDPLQIVVSCVHKTLHLSPPRAHRAAGKECDPLLSLTGGV"
+    gene            71580..77407
+                    /gene="KIR2DS3"
+                    /allele="KIR2DS3*01"
+                    /note="BotaKIR2DS3*01; null allele"
+    gene            82174..88324
+                    /gene="KIR3DXS3"
+                    /allele="KIR3DXS3*01"
+                    /note="BotaKIR3DXS3*01; null allele"
+    gene            <97731..>107326
+                    /gene="KIR3DXL7"
+                    /allele="KIR3DXL7*01"
+                    /note="BotaKIR3DXL7*01"
+    mRNA            join(<97731..97764,97907..97942,99107..99385,
+                    100273..100569,104070..104369,105344..105394,
+                    106140..106268,107007..107059,107171..>107326)
+                    /gene="KIR3DXL7"
+                    /allele="KIR3DXL7*01"
+                    /product="KIR3DXL7"
+    CDS             join(97731..97764,97907..97942,99107..99385,
+                    100273..100569,104070..104369,105344..105394,
+                    106140..106268,107007..107059,107171..107326)
+                    /gene="KIR3DXL7"
+                    /allele="KIR3DXL7*01"
+                    /codon_start=1
+                    /product="KIR3DXL7"
+                    /translation="MCPTLLSLLSLGFCVSLRIWAAVGEYDKPSLSAWPSPMVPLGQT
+                    VTLQCHFRSPLKRFRLFKTDGTSLPELHGNHFNTFTLGPVTREHAGSYTCSGLSRSLP
+                    VFSRSSDPLQIVVTGVFTKPSISAHPSPLVRAGENVTLRCHSPLLDKFILHQENSTGH
+                    FQRRGEMLTRGHAPADFVIGPMTLASAGTYRCYGSLRHSPYEWSAPSDPVDIVITGLS
+                    KKPSLSAQGGPVVRSGENVTLVCSSESTFDQFHLLRDGENLECPLVGGQNPHGALQAE
+                    FPLGPGTPAHSGVYRCYGSFTHSPYSWSDSSDPLFLSVTGSTTSTCPSTMDPHTTEEA
+                    LLPQKHSSTWYIFLGLGLVIAFTSTSIILAALVCHWFSTQNHVANMEGEPNEGQTVNG
+                    EDPAAEDVIYAHLNLGTLSERLFTPAPLSHMHPFTEPIIYEEFNVNQDHAEP"
+    misc_feature    121399..123365
+                    /note="KIR fragment 2"
+    gene            <132747..>139811
+                    /gene="KIR3DXL4"
+                    /allele="KIR3DXL4*02"
+                    /note="BotaKIR3DXL4*02"
+    mRNA            join(<132747..132780,132923..132958,134107..134373,
+                    135268..135567,136608..136907,137879..137929,
+                    138668..138790,139513..139565,139677..>139811)
+                    /gene="KIR3DXL4"
+                    /allele="KIR3DXL4*02"
+                    /product="KIR3DXL4"
+    CDS             join(132747..132780,132923..132958,134107..134373,
+                    135268..135567,136608..136907,137879..137929,
+                    138668..138790,139513..139565,139677..139811)
+                    /gene="KIR3DXL4"
+                    /allele="KIR3DXL4*02"
+                    /codon_start=1
+                    /product="KIR3DXL4"
+                    /translation="MRPTLLSLLSLGFCVSLRIWATVGEYKKLSLSAWPSPVVPLGQT
+                    VTLRCHSRSPLKRFILFKTDGRRGLPQFQGYYFNNFTLGPVTREHAGSYTCSGAYWSA
+                    RSDPLQIVVTGVFTKPSISAHPGPLVQVGENVTLRCHSPVVCDKFILHQESSTGHFQR
+                    RGEMLTSGHAAADFVIGPMTLASAGTYRCYSSLSSSPYEWSAPSDPVDIVITGLSKKP
+                    SLSAQGGPVVRSGENVTLVCSSERAFDQFHLLMEDEDLGRLLAGGRGHRGALQAEFPL
+                    GPGIPAHSGIYRCYGSFTRSPYSWSDSSDPLFLSVTGSTTSTCPSTMEPHTTEEAQLP
+                    QAHSSTWYIVLGLIIAFTSTSILLAALVCHWCSTQNHVAIMEGEPMEDRTVNGEDSAA
+                    EDVIYAHLDLGTLSERRFNPTPLRPMHPSAEPIIYEKFEI"
+    gene            144211..150034
+                    /gene="KIR2DS2"
+                    /allele="KIR2DS2*01"
+                    /note="BotaKIR2DS2*01; null allele"
+    gene            154794..160963
+                    /gene="KIR3DXS2"
+                    /allele="KIR3DXS2*01N"
+                    /note="BotaKIR3DXS2*01N; null allele"
+    gene            <170279..>179882
+                    /gene="KIR3DXL5"
+                    /allele="KIR3DXL5*01"
+                    /note="BotaKIR3DXL5*01"
+    mRNA            join(<170279..170312,170456..170491,171656..171934,
+                    172822..173118,176622..176921,177900..177950,
+                    178696..178824,179563..179615,179727..>179882)
+                    /gene="KIR3DXL5"
+                    /allele="KIR3DXL5*01"
+                    /product="KIR3DXL5"
+    CDS             join(170279..170312,170456..170491,171656..171934,
+                    172822..173118,176622..176921,177900..177950,
+                    178696..178824,179563..179615,179727..179882)
+                    /gene="KIR3DXL5"
+                    /allele="KIR3DXL5*01"
+                    /codon_start=1
+                    /product="KIR3DXL5"
+                    /translation="MCPTLLSLLSLGFCVSLRIWAAVGEYDKPSLSAWPSPMVPLGQT
+                    VTLQCHFRSPLKRFRLFKTDGTSLPKLHGNHFNTFTLGPVTREHAGSYTCSGLSRSLP
+                    VFSRSSDPLQIVVTGVFTKPSISAHPSPLVGAGENVTLRCHSPLLDKFILHQENSTGH
+                    FQRRGEMLTRGHAPADFVIGPMTLASAGTYRCYGSLRHSPYEWSAPSDPVDIVITGLS
+                    KKPSLSAQGGPVVRSGENVTLVCSSESAFDQFHLLRDGENLECPLAGGQSPHGALQAE
+                    FPLGPGTPAHSGVYRCYGSFTHSPYSWSDSSDPLFLSVTGSTTSTCPSTMDPHTTEEA
+                    LLPQKHSSTWYIFLGLGLVIAFTSTSIILAALVCYWSSTQNHVANMEGEPNEGQTVNG
+                    EDPAAEDVIYAHLNLGTLSERLFTPAPLSHMHPFTEPIIYEEFNVNQDHAEP"
+    misc_feature    194010..195979
+                    /note="KIR fragment 1"
+    gene            <205374..>212443
+                    /gene="KIR3DXL2"
+                    /allele="KIR3DXL2*02"
+                    /note="BotaKIR3DXL2*02"
+    mRNA            join(<205374..205407,205550..205585,206733..206999,
+                    207896..208195,209220..209519,210488..210538,
+                    211276..211398,212124..212176,212288..>212443)
+                    /gene="KIR3DXL2"
+                    /allele="KIR3DXL2*02"
+                    /product="KIR3DXL2"
+    CDS             join(205374..205407,205550..205585,206733..206999,
+                    207896..208195,209220..209519,210488..210538,
+                    211276..211398,212124..212176,212288..212443)
+                    /gene="KIR3DXL2"
+                    /allele="KIR3DXL2*02"
+                    /codon_start=1
+                    /product="KIR3DXL2"
+                    /translation="MRPTLLSLLSLGFCVSLRIWATVGEYVKLSLSAWPSPVVPLGQT
+                    VTLRCHSRSPLKRFILFKTDGRRGLPQFQGYYFNNFTLGPVTREHAGSYTCSGAYWSA
+                    HSDPLQIVVTGVFTKPSISAHPGPLVQVGENVTLRCHSPVVCDKFILHQESSTGHFQR
+                    RGEMLTSGHAPADFVIGPMTLASAGTYRCYSSLSSSPYEWSAPSDPVDIIITGRSKKP
+                    SLSAQGGPVVRSGENVTLVCSSERAFDQFHLLMEGEDLGRLLAGGRGHRGALQAEFPL
+                    GPGIPAHSGIYRCYGSFTGSPYSWSDSSDPLFLSVTGSTTSTCPSTMEPHTSEEAQLP
+                    QAHSCTWYIFLGLIIAFTSTSIILAALVCHWFSTQNHVAIMEGEPMEDRTVNGEDSAV
+                    EDVIYAHLDLGTLSERRFTPTPLRPVHPSTEPIIYEEFDANQDHAEP"
+    gene            214470..222555
+                    /gene="KIR2DS1"
+                    /allele="KIR2DS1*01"
+                    /note="BotaKIR2DS1*01; null allele"
+    gene            <230427..>242269
+                    /gene="KIR3DXL3"
+                    /allele="KIR3DXL3*01"
+                    /note="BotaKIR3DXL3*01"
+    mRNA            join(<230427..230460,230603..230638,231853..232131,
+                    233019..233315,239036..239335,240319..240369,
+                    241114..241236,241983..242035,242147..>242269)
+                    /gene="KIR3DXL3"
+                    /allele="KIR3DXL3*01"
+                    /product="KIR3DXL3"
+    CDS             join(230427..230460,230603..230638,231853..232131,
+                    233019..233315,239036..239335,240319..240369,
+                    241114..241236,241983..242035,242147..242269)
+                    /gene="KIR3DXL3"
+                    /allele="KIR3DXL3*01"
+                    /codon_start=1
+                    /product="KIR3DXL3"
+                    /translation="MCPTLLSLLSLRFCVSLRIWAAVGEYDNLSLSAWPSPMVPLGQT
+                    VTLQCHFRSPLKRFRLFKTDGTSLPELQGHHFNTFTLGPVTREHAGSYTCSGLSRSLP
+                    VFSRSSDPLQIVVTGVFTKPSISAHISPLMSAGENVTLCCHSQLLDKFILHQENSTGH
+                    FQRHGEMLTHGHAPADFVIGPMTLASAGTYRCYGSLRHSPYKWSAPSDPVDIVITGLY
+                    KKPSLSAQGGPVVRSEENVTLVCSSKSAFDQFHLLREGQNLGCPLAGGWSPHGALQAE
+                    FRLGPGTPAHSGVYRCYGSFTHSPYSWSDSSDPLFLSVTGSTTSTCQSTMDPHTTEEA
+                    LLPQKHSSTWYIFLGLVIAFTSTSIILAALVCHWFSTQNHVAIMEGEPNEDRTVNSED
+                    PAAEDVIYAHLNHGTVSKRLFTPAPLSHMHPFTEPIIDE"
+    gene            <273824..>279417
+                    /gene="KIR3DXS1"
+                    /allele="KIR3DXS1*03"
+                    /note="BotaKIR3DXS1*03"
+    mRNA            join(<273824..273857,274000..274035,275161..275427,
+                    276304..276603,277950..278249,278507..278557,
+                    279302..>279417)
+                    /gene="KIR3DXS1"
+                    /allele="KIR3DXS1*03"
+                    /product="KIR3DXS1"
+    CDS             join(273824..273857,274000..274035,275161..275427,
+                    276304..276603,277950..278249,278507..278557,
+                    279302..279417)
+                    /gene="KIR3DXS1"
+                    /allele="KIR3DXS1*03"
+                    /codon_start=1
+                    /product="KIR3DXS1"
+                    /translation="MCPTLLSLLSLGFCVSLRIWAAVGKYEKLSLSAWPSPVVPLGQT
+                    VTLQCHSHSPLKRFRLFKTDGKRRLSELQGHHFNNFTLGPVTGEHAGSYTCSEAYWSA
+                    PSDPLEIVVSGVFQKPSISAHPGPLVQQGQNVTLRCHSLVMFDKFILHHENSTGHFQR
+                    RGEMLTGGYAPADFSIGPMTLASAGTYRCYGSLRRSPYEWSAPSDPVDIMITGLSKKP
+                    SLSAQRGPMVRSGENVTLVCSSESAFDQFHLLREGVNLGRHLAGGQSPRRALQAEFPL
+                    GPGTPAHSGVYRCYGSFTCSPYSWSNSSDPLFLSVTGSTTSTCPSIMDPHTTEEARLP
+                    QGHSRQLHLLLRLSVAFIYTSIFLAVLVCTGYP"
+    gene            <304526..>311836
+                    /gene="KIR3DXL1"
+                    /allele="KIR3DXL1*02"
+                    /note="BotaKIR3DXL1*02"
+    mRNA            join(<304526..304559,304702..304737,305863..306129,
+                    307006..307305,308648..308947,309915..309965,
+                    310704..310826,311550..311602,311714..>311836)
+                    /gene="KIR3DXL1"
+                    /allele="KIR3DXL1*02"
+                    /product="KIR3DXL1"
+    CDS             join(304526..304559,304702..304737,305863..306129,
+                    307006..307305,308648..308947,309915..309965,
+                    310704..310826,311550..311602,311714..311836)
+                    /gene="KIR3DXL1"
+                    /allele="KIR3DXL1*02"
+                    /codon_start=1
+                    /product="KIR3DXL1"
+                    /translation="MCPTLLSLLSLGFYVSLRNWAAVGEYEKLSLSAWPSPVVPLGQT
+                    VTLQCHSHSPLKRFRLFKRDGKRHLPELQGDHFNNFTLGPVTGEHAGSYTCSEAYWSA
+                    PSDPLQIVVSGVFQKPSISAHPGPLVQQGDNVTLRCHSLVMFDKFILHHENSTGHFQR
+                    HGEMLTGGYAPADFSIGPMTLASAGTYRCYGSLRRSPYEWSAPSDPVDIMITGLSKKP
+                    SLSAQGGSMVRSGENVTLVCSSESAFDQFHLLREGVNLGRHLAGGQSPCRALQAEFPL
+                    GPGTPAHSGVYRCYGSFTCSPYSWSNSSDPLFLSVTGSTTSTCPSTMDPHTTEEAQLS
+                    QAHSSTWYIVLGLIIAFTSTSILLAALVCHWCSTQNHVAIMEGEPMEARIVNGEDSAA
+                    EDVIYAHLDLRTLSERRFTPTPLRPMHPSTEPIIYE"
+    gene            <313914..>323782
+                    /gene="KIR2DL1"
+                    /allele="KIR2DL1*02"
+                    /note="BotaKIR2DL1*02"
+    mRNA            join(<313914..313947,314170..314205,315443..315727,
+                    317578..317877,318531..318581,322323..322427,
+                    323485..323537,323636..>323782)
+                    /gene="KIR2DL1"
+                    /allele="KIR2DL1*02"
+                    /product="KIR2DL1"
+    CDS             join(313914..313947,314170..314205,315443..315727,
+                    317578..317877,318531..318581,322323..322427,
+                    323485..323537,323636..323782)
+                    /gene="KIR2DL1"
+                    /allele="KIR2DL1*02"
+                    /codon_start=1
+                    /product="KIR2DL1"
+                    /translation="MLSAIVSLACLGFFLIQSIWAQEGGHDKPSLLAWPSPVVPQGQH
+                    VTLRCQSPLGFDRFRLHKDDRTNVPELQGIIFWKNFLMGPVTKAHAGTYRCHGHYSHL
+                    PTLWSAPSDPLEIVVTGLSKKPSLSAQGGPVVRSGENVTLVCSSESAFDQFHLLREGV
+                    NLGRPLAGGRGPRGALQAEFPLGPGTPDHSGVYRCYGSFTRSPYSWSDSSDPLFLSVT
+                    GNSSSSQPLHTKPNSNSGNPRHLHALVGPSVAFVFLVSLTSFLIHHWCPDAKDAVIMN
+                    SQPEVGRRVNREDPDAEELKEVTYTDLDCSVFTQKIITPTSQRPREPSTNASVYMDLA
+                    TC"
+    gene            <328544..>339141
+                    /gene="FCAR"
+    mRNA            join(<328544..328579,329445..329481,333534..333823,
+                    335850..336132,338912..>339141)
+                    /gene="FCAR"
+                    /product="FCAR"
+    CDS             join(328544..328579,329445..329481,333534..333823,
+                    335850..336132,338912..339141)
+                    /gene="FCAR"
+                    /codon_start=1
+                    /product="FCAR"
+                    /translation="MAPRDITLFCLGVLCLGQKIQAQDENFPIPIISATPSSVIPWNG
+                    SVKILCQGTLESYLYQLEILENLTYKQVEKKLGFQEVAEFIINHMDTNTAGRYQCRYR
+                    RGHRWSAPSEALELVLTGEYDKPFLSTDGGHVVMPGENISFQCSSAYISFDRFSLSRP
+                    GGATLSRHRDARLQGDFTLGPVNLSFSGVYTCYGWHSGHPYVWSAPSNALELVVTDTT
+                    SQDHTTENWVRMGVAGLVLLALLAILAENRLGPQLPHQEDQQDLPDLSWSWQRSQTER
+                    TFGLTPKDHQGDSWS"
+    gene            <346558..>350719
+                    /gene="NCR1"
+    mRNA            join(<346558..346593,346673..346709,346886..347170,
+                    349254..349532,349801..349854,350376..350423,
+                    350529..>350719)
+                    /gene="NCR1"
+                    /product="NCR1"
+    CDS             join(346558..346593,346673..346709,346886..347170,
+                    349254..349532,349801..349854,350376..350423,
+                    350529..350719)
+                    /gene="NCR1"
+                    /codon_start=1
+                    /product="NCR1"
+                    /translation="MPSTLAVFLVLGGLGLSQRSSTQKQMLSKPAIWVRPSFMIPKGR
+                    SATIGCRGAGEAMEYQLHFEGGLSALKRPKSSPVMNWVKFPIPAMTSHTAGQYRCSYR
+                    SGELWSELSDPLELVVTGLYDTPTLSVEPRSEVTSGENVTFHCQLATATSTFFLLKKG
+                    RSSRPQLRYGNLRAEFHLGPVTPAHGGTYRCFGSYNNHAWSFPSKPVKLLVKVPGDAG
+                    DTTFAPTEHTSSDYWDSYELTTGTQSQKDHLLWNHMIQNLIRLGLAVLVLVALMGFLL
+                    EDWLHRRKSQERAHRASRRGCRRRLRAQRALET"
